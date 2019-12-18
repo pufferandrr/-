@@ -1,0 +1,48 @@
+.main
+{
+    height: 600px;
+    width: 400px;
+    margin: 100px auto;
+    background-color: #d0b688;
+    position: relative;
+    box-shadow:0 10px 10px grey;
+    border-radius: 1%;
+    font-family: "Arial","MicrosoftYaHei","黑体","宋体",sans-serif;
+    color: #fcfcfc;
+}
+.password,
+.email,
+.passwordagain
+{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.email
+{
+    margin-top: 100px;
+}
+.password
+{
+    margin-top: 150px;
+}
+.passwordagain
+{
+    margin-top: 200px;
+}
+.submitbutton
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.submitbutton input
+{
+    height: 48px;
+    width: 200px;
+    background: url(image/submit.png) -40px -26px;
+    background-color: #3498DB;
+    border-radius: 7%;
+}

@@ -1,0 +1,78 @@
+body{
+    font-family: "YouYuan";
+}
+.main{
+    background-color: #eeeeee;
+    height: 800px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 10px 10px gray;
+    position: relative;
+    overflow:auto;
+}
+.add,
+.delete
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30px;
+    color: #000080;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 5%;
+      left: 50px;
+      font-size: 20px;
+}
+.add:hover,
+.delete:hover
+{
+    box-shadow: 0px 5px 5px gray;
+}
+.operation
+{
+    height: 100px;
+    width:100%;
+}
+.block
+{
+     height: 50px;
+      width: 350px;
+      background-color: #000080;
+      margin: 0 auto;
+      margin-top: 10px;
+      color: honeydew;
+      text-align: center;
+      line-height: 50px;
+      box-shadow: 0px 5px 3px gray;
+}
+.button
+{
+    height: 20px;
+    width: 40px;
+    background-color: #f8f8f8;
+    color:black;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 5px;
+    vertical-align: middle;
+    font-size: 10px;
+    
+}
+.text
+{
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    overflow: auto;
+}
+#showarea
+{
+    width: 450px;
+    height: 500px;
+    padding-top: 100px;
+}
